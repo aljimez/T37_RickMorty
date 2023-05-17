@@ -1,1 +1,9 @@
-<p>personaje works!</p>
+<div class="card">
+  <div class="card-inside" style="width: 18rem;" *ngFor="let p of charac">
+    <img [src]="p.image"  class="card-img-top" alt="imagen de personaje">
+<div class="card-body">
+  <h5 class="card-title">{{p.name}}</h5>
+  <a href="#" class="btn btn-info">Ir</a>
+</div>
+  </div>
+</div>
