@@ -5,7 +5,7 @@ import { PersonajeComponent } from './components/personaje/personaje.component';
 import { AboutComponent } from './components/about/about.component';
 
 const routes: Routes = [
-{path:'',component:HomeComponent},
+{path:'home',component:HomeComponent},
 {path:'personaje',component:PersonajeComponent},
 {path:'about',component:AboutComponent}
 ];

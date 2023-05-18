@@ -11,9 +11,10 @@ export class PersonajeComponent {
 charac: any[] = [];
 constructor(private http: HttpClient){}
 
-ngOnInit(){
-  this.http.get<any>('assets/database.json').subscribe(data =>{
-    this.charac = data.charac;
-  })
+
+ngOnInit() {
+  this.http.get<any>('assets/database.json').subscribe(data => {
+   this.charac = data.characters;
+ });
 }
 }

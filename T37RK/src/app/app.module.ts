@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import {PersonajeComponent} from './components/personaje/personaje.component';
 import { HomeComponent } from './pages/home/home.component';
 import {  HttpClientModule } from '@angular/common/http';
-import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
@@ -14,7 +13,6 @@ import { AboutComponent } from './components/about/about.component';
     AppComponent,
     PersonajeComponent,
     HomeComponent,
-    NavbarComponent,
     AboutComponent
   ],
   imports: [
